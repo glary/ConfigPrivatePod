@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "__ProjectName__"
-  s.version      = "1"
+  s.version      = "0.0.1"
   s.summary      = "__ProjectName__."
 
   # This description is used to generate tags and improve search results.
@@ -53,10 +53,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "CasaTaloyum" => "casatwy@msn.com" }
-  # Or just: s.author    = "CasaTaloyum"
-  # s.authors            = { "CasaTaloyum" => "casatwy@msn.com" }
-  # s.social_media_url   = "http://twitter.com/CasaTaloyum"
+  s.author             = { "Candy" => "81990319@qq.com" }
+  # Or just: s.author    = "Candy"
+  # s.authors            = { "Candy" => "81990319@qq.com" }
+  # s.social_media_url   = "https://github.com/glary/"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios, '8.0'
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -133,8 +133,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "BLNetworking"
-  # s.dependency "BLAPIManagers"
-  # s.dependency "BLMediator"
+    # s.dependency 'YTKNetwork'
+    # s.dependency 'Masonry'
 
 end
